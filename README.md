@@ -67,10 +67,11 @@ The 74LS138 places the 8255 at I/O addresses `68h` and above:
 
 ## Run the simulation
 
-1. Install [Proteus](https://www.labcenter.com/) (8.x) and the MASM32 SDK.
-2. Open `Hardware_project.pdsprj` in Proteus.
-3. Double-click the 8086 → **Program File** → point to the assembled `.exe` from `Assembly_code.asm`. *In Proteus' 8086 properties also set **Internal Memory Size** to `0x10000`.*
-4. Hit ▶ **Run** and click keypad buttons &mdash; the digit appears on the 7-segment display.
+1. Install [Proteus](https://www.labcenter.com/) (8.x).
+2. Open `Hardware_project.pdsprj` &mdash; the assembled firmware is already bundled inside the project (Proteus stores it as `8086/Debug/Debug.exe`).
+3. Hit ▶ **Run** and click keypad buttons &mdash; the digit appears on the 7-segment display.
+
+> Want to rebuild from source? Install MASM32, then open the source pane in Proteus VSM Studio and edit `main.asm` (or just replace the bundled file with `Assembly_code.asm` from the repo root &mdash; they are identical). Proteus' 8086 model also requires **Internal Memory Size** = `0x10000` in its properties.
 
 ## Course context
 
