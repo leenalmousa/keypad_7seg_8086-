@@ -74,7 +74,7 @@ The 74LS138 places the 8255 at I/O addresses `68h` and above:
 
 ## Course context
 
-Built for the Microprocessors course at PSUT. Demonstrates I/O port handling on the 8086, address decoding with the 74LS138, matrix-keypad scanning, and 7-segment encoding &mdash; without using any library calls.
+Built for the Microprocessors course at PSUT. Demonstrates I/O port handling on the 8086, address decoding with the 74LS138, matrix-keypad scanning, and 7-segment encoding; without using any library calls.
 
 ## Author
 
