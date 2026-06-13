@@ -1,0 +1,19 @@
+# MASM / Assembler build artifacts
+*.obj
+*.exe
+*.lst
+*.map
+*.bak
+
+# Proteus
+*.LYT
+Backup/
+*.PWI
+*.SDF
+
+# Editor / OS
+.vscode/
+.idea/
+*~
+.DS_Store
+Thumbs.db
